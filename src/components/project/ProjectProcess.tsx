@@ -1,8 +1,8 @@
 
-import { ProjectProcess } from '@/data/projects';
+import { type ProjectProcess as ProjectProcessType } from '@/data/projects';
 
 interface ProjectProcessProps {
-  process: ProjectProcess[];
+  process: ProjectProcessType[];
 }
 
 const ProjectProcess = ({ process }: ProjectProcessProps) => {
