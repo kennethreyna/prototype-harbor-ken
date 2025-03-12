@@ -238,15 +238,17 @@ const ProjectDetail = () => {
                   </span>
                 ))}
               </div>
-              <a 
-                href={project.prototype} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-white hover:bg-portfolio-navy hover:text-white text-portfolio-navy px-6 py-3 rounded-md transition-colors font-medium"
-              >
-                View Interactive Prototype
-                <ExternalLink size={16} className="ml-2" />
-              </a>
+              <div className="inline-flex items-center">
+                <a 
+                  href={project.prototype} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-white hover:bg-portfolio-navy hover:text-white text-portfolio-navy px-6 py-3 rounded-md transition-colors font-medium"
+                >
+                  View Interactive Prototype
+                  <ExternalLink size={16} className="ml-2" />
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -350,10 +352,10 @@ const ProjectDetail = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end justify-center">
                   <div className="text-white p-8 text-center">
-                    <div className="inline-flex items-center font-medium">
+                    <span className="inline-flex items-center font-medium">
                       View Project
                       <ArrowRight size={18} className="ml-2" />
-                    </div>
+                    </span>
                   </div>
                 </div>
               </Link>
