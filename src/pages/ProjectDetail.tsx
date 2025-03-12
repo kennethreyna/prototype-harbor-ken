@@ -1,4 +1,3 @@
-
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react';
 import Header from '@/components/Header';
@@ -31,7 +30,7 @@ const projects = [
       },
       {
         title: 'Information Architecture',
-        description: 'Restructured the app's navigation and data hierarchy to prioritize daily actions and make insights more accessible.'
+        description: "Restructured the app's navigation and data hierarchy to prioritize daily actions and make insights more accessible."
       },
       {
         title: 'Wireframing',
